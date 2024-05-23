@@ -1,0 +1,56 @@
+
+@font-face {
+    font-family: "Alegreya";
+    src: url(../Fonts/Alegreya-Italic-VariableFont_wght.ttf);
+}
+
+
+@font-face {
+    font-family: "imfellenglish";
+    src: url(../Fonts/IMFellEnglish-Regular.ttf);
+}
+
+
+/* All Pages STYLING  */
+
+
+/* =====================ABOUT SECTION ON HOE PAGE================== */
+.Harry_world{
+font-family: 'imfellenglish';
+color: #4A4847;
+}
+
+
+.welcometoabout{
+    font-family: 'imfellenglish';
+color: #4A4847;
+}
+
+.Para-content{
+    color: #4A4847;
+    font-family: "imfellenglish";
+}
+
+.Explore_wizarding{
+    color: #ff7708;
+    font-family: "Alegreya";
+    
+}
+
+.content_options{
+    color: #4A4847;
+    font-family: "imfellenglish";
+}
+
+.content_options>span{
+    color: #ff7708;
+}
+
+
+/*======================================= ID PAGES TITLE STYLING ========================================= */
+
+.movie-id-page-title,
+.spell-ID-Page-Title,
+.Books-id-page-title{
+    font-family: "imfellenglish";
+}

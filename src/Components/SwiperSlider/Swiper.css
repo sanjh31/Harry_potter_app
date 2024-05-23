@@ -1,0 +1,46 @@
+@font-face {
+  font-family: "imfellenglish";
+  src: url(../../Fonts/IMFellEnglish-Regular.ttf);
+}
+
+@font-face {
+  font-family: "cursivealegreya";
+  src: url(../../Fonts/Alegreya-Italic-VariableFont_wght.ttf);
+}
+
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: #ae7f6f; /* Change the color to red */
+  width: 50px;    /* Change the size (width) */
+  height: 50px;   /* Change the size (height) */
+  font-weight: bolder;
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  font-size: 20px; /* Change the icon size */
+}
+
+.swiper-button-next:hover,
+.swiper-button-prev:hover{
+    color: #a83109;
+}
+
+.Swipper_Upper_Slider_Heading{
+  font-family: "imfellenglish";
+
+  background-color: rgba(0, 0, 0, 0.85);
+}
+
+
+@media only screen and (max-width:1024px){
+  .swiper-button-next,
+  .swiper-button-prev{
+    visibility: hidden;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+.Swipper_Upper_Slider_Heading{background-color: transparent;}
+}
